@@ -9,16 +9,16 @@ A **Python script** designed to analyze and classify bouldering grades using lis
 - **Advanced Grading Filter :**
   - Automatically isolates harder boulders (above 6) to identify maximum performance levels.
   - Extracts warm-up boulders (5 and below) to structure training sessions.
-- **Statistical Overview :** Calculates and rounds the overall average of achieved grades using built-in math functions (sum(), len(), round()).
-- **Modular Code Architecture :** Clear separation of concerns with pure functions and a main main() function to orchestrate the output.
+- **Statistical Overview :** Calculates and rounds the overall average of achieved grades using built-in math functions (`sum()`, `len()`, `round()`).
+- **Modular Code Architecture :** Clear separation of concerns with pure functions and a `main()` function to orchestrate the output.
 
 ---
 
 ## Concepts & Technologies Applied
 
 - **Python 3**
-- **List Comprehensions :** Concise and efficient list filtering ([grade for grade in grades if ...]).
-- **Built-in Functions & Math :** Utilizing sum() and round() for grade data analysis.
+- **List Comprehensions :** Concise and efficient list filtering (`[grade for grade in grades if ...]`).
+- **Built-in Functions & Math :** Utilizing `sum()` and `round()` for grade data analysis.
 - **Modular Programming :** Organizing code into reusable, structured functions.
 
 ---
