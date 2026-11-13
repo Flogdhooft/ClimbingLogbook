@@ -35,3 +35,22 @@ main()
 1. Voici les cotations les plus durs = [7, 7, 8, 7]
 2. Ici voici les blocs d'échauffement = [5, 4, 5]
 3. La moyenne des cotations est = 6
+```
+
+---
+
+## Run the application
+
+To run this project locally, make sure you have Python 3 installed on your machine.
+
+1. **Clone the repository :**
+   ```bash
+   git clone https://github.com/Flogdhooft/ClimbingLogbook.git
+
+2. **Navigate to the project directory :**
+   ```bash
+    cd ClimbingLogbook
+
+3. **Run the script :**
+   ```bash
+    python main.py
