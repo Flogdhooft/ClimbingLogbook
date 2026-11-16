@@ -29,6 +29,6 @@ def main():
     print("\nRésultats de votre session :")
     print(f"1. Voici les cotations les plus dures = {hardest_grades(grades)}")
     print(f"2. Ici voici les voies d'échauffement = {easiest_grades(grades)}")
-    print(f"3. La moyenne des cotations est = {grades_average(grades)}")
+    print(f"3. La moyenne des cotations est = {grades_average(grades)}\n")
 
 main()
