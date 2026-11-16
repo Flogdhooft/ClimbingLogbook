@@ -1,4 +1,15 @@
-grades = [5, 6, 7, 4, 6, 7, 8, 5, 7]
+def get_user_grades():
+    while True:
+        try:
+            user_input = input("Entrez vos cotations séparées par des virgules (ex: 5, 6, 7, 4, 8) : ")
+            grades = [int(grade.strip()) for grade in user_input.split(",")]
+            
+            if all(4 <= grade <= 9 for grade in grades):
+                return grades
+            else:
+                print("Erreur : Les cotations doivent être comprises entre 4 et 9.")
+        except ValueError:
+            print("Erreur : Veuillez entrer des nombres valides séparés par des virgules.")
 
 def hardest_grades(grades):
     return [grade for grade in grades if grade > 6]
@@ -7,33 +18,17 @@ def easiest_grades(grades):
     return [grade for grade in grades if grade <= 5]
 
 def grades_average(grades):
+    if not grades:
+        return 0
     return round(sum(grades) / len(grades))
 
 def main():
-    print(f"1. Voici les cotations les plus durs = {hardest_grades(grades)}")
-    print(f"2. Ici voici les blocs d'échauffement = {easiest_grades(grades)}")
+    print("--- Python Climbing Logbook ---")
+    grades = get_user_grades()
+    
+    print("\nRésultats de votre session :")
+    print(f"1. Voici les cotations les plus dures = {hardest_grades(grades)}")
+    print(f"2. Ici voici les voies d'échauffement = {easiest_grades(grades)}")
     print(f"3. La moyenne des cotations est = {grades_average(grades)}")
 
 main()
-
-# def hardest_grades(grades):
-#     hardest_grades = []
-#     for grade in grades:
-#         if grade > 6:
-#             hardest_grades.append(grade)
-#     return f"1. Voici les cotations les plus durs = {hardest_grades}"
-
-# def easiest_grades(grades):
-#     easiest_grades = []
-#     for grade in grades:
-#         if grade <= 5:
-#             easiest_grades.append(grade)
-#     return f"2. Ici voici les blocs d'échauffement = {easiest_grades}"
-
-# def grades_average(grades):
-#     grades_average = round(sum(grades) / len(grades))
-#     return f"3. La moyenne des cotations est = {grades_average}"
-
-# print(hardest_grades(grades))
-# print(easiest_grades(grades))
-# print(grades_average(grades))
