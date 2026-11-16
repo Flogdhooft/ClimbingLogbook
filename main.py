@@ -1,7 +1,7 @@
 def get_user_grades():
     while True:
         try:
-            user_input = input("Entrez vos cotations séparées par des virgules (ex: 5, 6, 7, 4, 8) : ")
+            user_input = input("Entrez vos cotations séparées par des virgules (ex: 5, 6, 7, 4, 8) =\n")
             grades = [int(grade.strip()) for grade in user_input.split(",")]
             
             if all(4 <= grade <= 9 for grade in grades):
