@@ -26,14 +26,13 @@ A **Python script** designed to analyze and classify bouldering grades using lis
 ## Usage Example
 
 ```text
-# Function Call
-grades = [5, 6, 7, 4, 6, 7, 8, 5, 7]
-main()
-```
-```text
-# Console Output
-1. Voici les cotations les plus durs = [7, 7, 8, 7]
-2. Ici voici les blocs d'échauffement = [5, 4, 5]
+--- Python Climbing Logbook ---
+Entrez vos cotations séparées par des virgules (ex: 5, 6, 7, 4, 8) =
+5, 6, 7, 4, 6, 7, 8, 5, 7
+
+Résultats de votre session :
+1. Voici les cotations les plus dures = [7, 7, 8, 7]
+2. Ici voici les voies d'échauffement = [5, 4, 5]
 3. La moyenne des cotations est = 6
 ```
 
