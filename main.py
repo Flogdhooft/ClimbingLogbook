@@ -37,4 +37,5 @@ def main():
     print(f"2. Ici voici les voies d'échauffement = {easy_output}")
     print(f"3. La moyenne de toutes les cotations = {grades_average(grades)}\n")
 
-main()
+if __name__ == "__main__":
+    main()
