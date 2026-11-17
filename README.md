@@ -33,7 +33,7 @@ Entrez vos cotations séparées par des virgules (ex: 5, 6, 7, 4, 8) =
 Résultats de votre session :
 1. Voici les cotations les plus dures = [7, 7, 8, 7]
 2. Ici voici les voies d'échauffement = [5, 4, 5]
-3. La moyenne des cotations est = 6
+3. La moyenne de toutes les cotations = 6
 ```
 
 ---
