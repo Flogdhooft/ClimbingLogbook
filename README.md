@@ -52,4 +52,4 @@ To run this project locally, make sure you have Python 3 installed on your machi
 
 3. **Run the script :**
    ```bash
-    python main.py
+    py main.py
