@@ -23,7 +23,9 @@ A **Python script** designed to analyze and classify bouldering grades using lis
 
 ---
 
-## Usage Example
+## Code Structure Example
+
+Excerpt from the main Python script handling grade filtering and session statistics :
 
 ```text
 --- Python Climbing Logbook ---
